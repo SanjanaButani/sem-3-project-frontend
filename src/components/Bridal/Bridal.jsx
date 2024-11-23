@@ -15,10 +15,10 @@ const Bridal = () => {
                 Bridal Mackup/Party Mackup/Birthday Mackup/Fuction Mackup
             </p>
             <div className="images flex mt-20">
-                <img src={require('../../utils/images/bridal_1.png')} alt="portfolio image" className='mx-5' />
-                <img src={require('../../utils/images/bridal_2.png')} alt="portfolio image" className='mx-5' />
-                <img src={require('../../utils/images/bridal_3.png')} alt="portfolio image" className='mx-5' />
-                <img src={require('../../utils/images/bridal_4.png')} alt="portfolio image" className='mx-5' />
+                <img src={require('../../utils/images/bridal_1.png')} alt="portfolio" className='mx-5' />
+                <img src={require('../../utils/images/bridal_2.png')} alt="portfolio" className='mx-5' />
+                <img src={require('../../utils/images/bridal_3.png')} alt="portfolio" className='mx-5' />
+                <img src={require('../../utils/images/bridal_4.png')} alt="portfolio" className='mx-5' />
             </div>
             <div>
                 <h2 className="text-current text-2xl text-center font-bold mt-20 drop-shadow-sm" id='portfolio'>Bridal Package</h2>

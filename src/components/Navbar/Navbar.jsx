@@ -15,8 +15,8 @@ const Navbar = () => {
             <ul className='flex'>
                 <li className='mx-2 flex justify-center items-center'><NavLink to="/home" className='text-lg font-medium text-current hover:underline'>Home</NavLink></li>
                 <li className='mx-2 flex justify-center items-center'><NavLink to="/bride" className='text-lg font-medium text-current hover:underline'>Bride</NavLink></li>
-                <li className='mx-2 flex justify-center items-center'><NavLink to="/party" className='text-lg font-medium text-current hover:underline'>Party</NavLink></li>
                 <li className='mx-2 flex justify-center items-center'><NavLink to="/appointment" className='text-lg font-medium text-current hover:underline'>Appointment</NavLink></li>
+                <li className='mx-2 flex justify-center items-center'><NavLink to="/login" className='text-lg font-medium text-current hover:underline'>Login</NavLink></li>
                 <li className='mx-2 flex justify-center items-center'><NavLink to="/cart" className='text-lg font-medium text-current hover:underline'>My Booking</NavLink></li>
             </ul>
         </div>
