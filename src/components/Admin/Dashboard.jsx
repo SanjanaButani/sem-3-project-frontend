@@ -180,7 +180,7 @@ const Dashboard = () => {
                                     <td className="text-current border text-lg text-center m-2">{new Date(ap.date).toDateString()}</td>
                                     <td className="text-current border text-lg text-center m-2">{ap.createdBy.mobile}</td>
                                     <td className="text-current border text-lg text-center m-2">
-                                        {ap.services.map(service => service.name )}
+                                        {ap.services.map(service => service.name+', ' )}
                                     </td>
                                 </tr>
                             ))}
